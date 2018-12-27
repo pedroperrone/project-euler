@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/pedroperrone/project-euler/branches/master/badge.svg)](https://semaphoreci.com/pedroperrone/project-euler)
+
 ## Dependencies
 
 * Python 3.7

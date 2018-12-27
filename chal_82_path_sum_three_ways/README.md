@@ -8,5 +8,4 @@ The solution for this problem is very similar to the [solution for the problem 8
 
 ## The answer
 
-After navigating to `project_euler/chal_82_path_sum_three_ways` and running `python main.py`, we can see the answer is `260324`.
 After running `python main.py 82` in the root of the project, we can see that the answer is `260324`.

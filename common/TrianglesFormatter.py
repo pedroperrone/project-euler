@@ -6,6 +6,7 @@ class TrianglesFormatter:
     def from_file(file_name):
         file = open(file_name, 'r')
         file_content = file.readlines()
+        file.close()
         matrix = []
         for row in file_content:
             coordinates = [int(c) for c in row.split(",")]
