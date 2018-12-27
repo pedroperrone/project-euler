@@ -1,5 +1,5 @@
-from Triangle import Triangle
-from Point import Point
+from common.Triangle import Triangle
+from common.Point import Point
 
 class TrianglesFormatter:
     @staticmethod

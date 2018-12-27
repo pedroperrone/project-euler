@@ -1,6 +1,6 @@
-from Point import Point
+from common.Point import Point
 
-class TrianglesContainment():
+class TrianglesContainment:
     def __init__(self, triangles):
         self.triangles = triangles
 

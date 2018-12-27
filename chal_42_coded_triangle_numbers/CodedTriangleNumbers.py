@@ -1,4 +1,4 @@
-from TriangleNumber import TriangleNumber
+from chal_42_coded_triangle_numbers.TriangleNumber import TriangleNumber
 import string
 
 class CodedTriangleNumbers:

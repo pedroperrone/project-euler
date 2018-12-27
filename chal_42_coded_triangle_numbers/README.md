@@ -8,4 +8,4 @@ The solution for this problem is easy after some algebric manipulation. We can t
 
 ## The answer
 
-After navigating to `project_euler/chal_42_coded_triangle_numbers` and running `python main.py`, we can see the answer is `162`.
+After running `python main.py 42` in the root of the project, we can see that the answer is `162`.

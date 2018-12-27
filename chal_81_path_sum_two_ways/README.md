@@ -12,4 +12,4 @@ To solve this problem I used dynamic programming. I used a matrix to save the su
 
 ## The answer
 
-After navigating to `project_euler/chal_81_path_sum_two_ways` and running `python main.py`, we can see the answer is `427337`.
+After running `python main.py 81` in the root of the project, we can see that the answer is `427337`.

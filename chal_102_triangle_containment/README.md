@@ -20,4 +20,4 @@ The implemented algorithm could be easily adapted to work with any convex polygo
 
 ## The answer
 
-After navigating to `project_euler/chal_102_triangle_containment` and running `python main.py`, we can see the answer is `228`.
+After running `python main.py 102` in the root of the project, we can see that the answer is `228`.

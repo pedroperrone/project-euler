@@ -1,5 +1,5 @@
 import math
-from Bhaskara import Bhaskara
+from chal_42_coded_triangle_numbers.Bhaskara import Bhaskara
 
 class TriangleNumber:
     @staticmethod

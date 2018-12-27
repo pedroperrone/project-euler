@@ -1,6 +1,6 @@
 from math import atan2
-from Point import Point
-from Vector import Vector
+from common.Point import Point
+from common.Vector import Vector
 
 class Triangle():
     def __init__(self, point_a, point_b, point_c):
