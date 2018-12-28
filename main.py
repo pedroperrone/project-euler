@@ -1,6 +1,7 @@
 import sys
 from chal_31_coins_sum.CoinsSum import CoinsSum
 from chal_42_coded_triangle_numbers.CodedTriangleNumbers import CodedTriangleNumbers
+from chal_76_counting_summations.CountingSummations import CountingSummations
 from chal_81_path_sum_two_ways.PathSumTwoWays import PathSumTwoWays
 from chal_82_path_sum_three_ways.PathSumThreeWays import PathSumThreeWays
 from chal_102_triangle_containment.TrianglesContainment import TrianglesContainment
@@ -16,6 +17,10 @@ def run_challenge_31():
 def run_challenge_42():
     words = WordsListFormatter.from_file('chal_42_coded_triangle_numbers/p042_words.txt')
     print(CodedTriangleNumbers(words).count_triangle_words())
+
+def run_challenge_76():
+    cs = CountingSummations(100)
+    print(cs.calculate_possibilities())
 
 def run_challenge_81():
     matrix = MatrixFormatter.from_file('chal_81_path_sum_two_ways/p081_matrix.txt')
@@ -35,6 +40,7 @@ def run_challenge_102():
 challenges = {
     31: run_challenge_31,
     42: run_challenge_42,
+    76: run_challenge_76,
     81: run_challenge_81,
     82: run_challenge_82,
     102: run_challenge_102
