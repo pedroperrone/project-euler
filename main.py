@@ -1,6 +1,7 @@
 import sys
 from chal_31_coins_sum.CoinsSum import CoinsSum
 from chal_42_coded_triangle_numbers.CodedTriangleNumbers import CodedTriangleNumbers
+from chal_48_self_powers.SelfPowers import SelfPowers
 from chal_76_counting_summations.CountingSummations import CountingSummations
 from chal_81_path_sum_two_ways.PathSumTwoWays import PathSumTwoWays
 from chal_82_path_sum_three_ways.PathSumThreeWays import PathSumThreeWays
@@ -17,6 +18,10 @@ def run_challenge_31():
 def run_challenge_42():
     words = WordsListFormatter.from_file('chal_42_coded_triangle_numbers/p042_words.txt')
     print(CodedTriangleNumbers(words).count_triangle_words())
+
+def run_challenge_48():
+    sp = SelfPowers(1000)
+    print(sp.sum_and_get_last_digits(10))
 
 def run_challenge_76():
     cs = CountingSummations(100)
@@ -40,6 +45,7 @@ def run_challenge_102():
 challenges = {
     31: run_challenge_31,
     42: run_challenge_42,
+    48: run_challenge_48,
     76: run_challenge_76,
     81: run_challenge_81,
     82: run_challenge_82,
