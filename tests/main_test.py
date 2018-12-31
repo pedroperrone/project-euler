@@ -5,6 +5,7 @@ from tests.chal_48_self_powers_test import SelfPowersTestCase
 from tests.chal_76_counting_summations_test import CountingSummationsTestCase
 from tests.chal_81_path_sum_two_ways_test import PathSumTwoWaysTestCase
 from tests.chal_82_path_sum_three_ways_test import PathSumThreeWaysTestCase
+from tests.chal_99_largest_exponential_test import LargestExponentialTestCase
 from tests.chal_102_triangle_containment_test import TrianglesContainmentTestCase
 
 if __name__ == '__main__':

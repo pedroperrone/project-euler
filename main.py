@@ -5,10 +5,12 @@ from chal_48_self_powers.SelfPowers import SelfPowers
 from chal_76_counting_summations.CountingSummations import CountingSummations
 from chal_81_path_sum_two_ways.PathSumTwoWays import PathSumTwoWays
 from chal_82_path_sum_three_ways.PathSumThreeWays import PathSumThreeWays
+from chal_99_largest_exponential.LargestExponential import LargestExponential
 from chal_102_triangle_containment.TrianglesContainment import TrianglesContainment
 
 from common.MatrixFormatter import MatrixFormatter
 from common.TrianglesFormatter import TrianglesFormatter
+from common.TuplesFormatter import TuplesFormatter
 from common.WordsListFormatter import WordsListFormatter
 
 def run_challenge_31():
@@ -37,6 +39,11 @@ def run_challenge_82():
     ps = PathSumThreeWays(matrix)
     print(ps.calculate_shortest_path())
 
+def run_challenge_99():
+    values = TuplesFormatter.from_file('chal_99_largest_exponential/p099_base_exp.txt')
+    le = LargestExponential(values)
+    print(le.find_greatest_value_index())
+
 def run_challenge_102():
     triangles = TrianglesFormatter.from_file('chal_102_triangle_containment/p102_triangles.txt')
     tc = TrianglesContainment(triangles)
@@ -49,6 +56,7 @@ challenges = {
     76: run_challenge_76,
     81: run_challenge_81,
     82: run_challenge_82,
+    99: run_challenge_99,
     102: run_challenge_102
 }
 
