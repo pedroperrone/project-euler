@@ -1,5 +1,4 @@
 class CoinsSum:
-    """docstring for CoinsSum"""
     def __init__(self, coins_values, target_value):
         coins_values.sort()
         self.coins_values = coins_values

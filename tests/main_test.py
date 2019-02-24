@@ -1,4 +1,5 @@
 import unittest
+from tests.chal_1_multiples_of_three_and_five_sum_test import MultiplesOfThreeAnfFiveSumTestCase
 from tests.chal_31_coins_sum_test import CoinsSumTestCase
 from tests.chal_42_coded_triangle_numbers_test import CodedTriangleNumbersTestCase
 from tests.chal_48_self_powers_test import SelfPowersTestCase

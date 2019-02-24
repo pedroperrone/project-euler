@@ -1,4 +1,5 @@
 import sys
+from chal_1_multiples_of_three_and_five.MultiplesOfThreeAndFiveSum import MultiplesOfThreeAndFiveSum
 from chal_31_coins_sum.CoinsSum import CoinsSum
 from chal_42_coded_triangle_numbers.CodedTriangleNumbers import CodedTriangleNumbers
 from chal_48_self_powers.SelfPowers import SelfPowers
@@ -12,6 +13,10 @@ from common.MatrixFormatter import MatrixFormatter
 from common.TrianglesFormatter import TrianglesFormatter
 from common.TuplesFormatter import TuplesFormatter
 from common.WordsListFormatter import WordsListFormatter
+
+def run_challenge_1():
+    ms = MultiplesOfThreeAndFiveSum()
+    print(ms.calculate_multiples_sum(1000))
 
 def run_challenge_31():
     cs = CoinsSum([1, 2, 5, 10, 20, 50, 100, 200], 200)
@@ -50,6 +55,7 @@ def run_challenge_102():
     print(tc.count_containing_origin())
 
 challenges = {
+    1: run_challenge_1,
     31: run_challenge_31,
     42: run_challenge_42,
     48: run_challenge_48,
